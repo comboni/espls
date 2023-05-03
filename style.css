@@ -30,6 +30,7 @@ body {
   display: flex;
   -webkit-overflow-scrolling: touch;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 section {
