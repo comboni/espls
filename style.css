@@ -121,7 +121,7 @@ section {
 .pages{
   position: absolute;
   top: 15vh;
-  height: 85vh;
+  height: 50vh; /*old 85*/
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -151,6 +151,8 @@ section {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .arc{
+  position: absolute; /*new*/
+  bottom: 0;          /*new*/
   width: 100vw;
   overflow: hidden;
 }
