@@ -10,6 +10,7 @@
   padding: 0;
 }
 
+
 html {
   height: -webkit-fill-available;
 }
@@ -37,6 +38,7 @@ section {
   min-width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
+  overflow-y: hidden;
   position: relative;
   /* display: flex;
   flex-direction: column;
@@ -70,7 +72,7 @@ section {
 }
 .sce1_3{
   position: absolute;
-  top: 50vh;
+  top: 45vh;
   /* border: blue solid 1px; */
   height: 50vh;
 }
@@ -79,7 +81,7 @@ section {
 }
 .hand{
   position: absolute;
-  top: 85vh;
+  top: 80vh;
   left: 80vw;
   /* border: blue solid 1px; */
   animation: linear infinite;
