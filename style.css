@@ -10,7 +10,13 @@
   padding: 0;
 }
 
-body {
+html {
+  height: -webkit-fill-available;
+}
+
+body {  
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   overflow-y: hidden;
   background: #516b0a;
   color: white;
