@@ -283,7 +283,7 @@ section {
 }
 .level_3{
   position: absolute;
-  top: 70vh;
+  top: 60vh;
   right: 0vw;
   padding-bottom: 5vh;
   padding-right: 5vw;
@@ -331,7 +331,7 @@ section {
   text-decoration: none;
   background-color: #294402;
   border-radius:3vw;
-  margin: 10vh;
+  margin: 5vh;
 }
 .level_par_2 a{
   text-decoration: none;
