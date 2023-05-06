@@ -331,7 +331,7 @@ section {
   text-decoration: none;
   background-color: #294402;
   border-radius:3vw;
-  margin: 5vh;
+  margin: 3vh;
 }
 .level_par_2 a{
   text-decoration: none;
@@ -346,7 +346,7 @@ section {
 }
 .quote{
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   left: 0vw;
   width: 20vw;
   z-index: -10;
