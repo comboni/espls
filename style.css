@@ -123,6 +123,17 @@ section {
   padding-bottom: 5vh;
   /* border-bottom: #294402 solid 10px; */
 }
+.pro_2{
+  text-align: left;
+  font-size: calc(1rem + 1vw);
+  line-height: normal;
+  width: 90vw;
+  margin-left: 5vw;
+  padding-bottom: 5vh;
+}
+.time{
+  font-weight: bold;
+}
 ul.bullets{
   list-style-type: disc;
 }
@@ -132,6 +143,16 @@ ul.bullets{
 .date{
   font-weight: bold;
   line-height: 4vh;
+  text-decoration: none;
+}
+.date a{
+  text-decoration: none;
+  color: white;
+}
+.zoom{
+  background-color: #294402;
+  padding: 2vw;
+  border-radius: 15px;
 }
 .level_3{
   display: none;
@@ -150,6 +171,17 @@ ul.bullets{
 }
 .sec3_par{
   margin-top: 3vh;
+}
+.sec3_link_letter{
+  text-decoration: none;
+  color: white;
+  background-color: #294402;
+  border-radius: 15px;
+  padding: 2vw;
+}
+.sec3_link_letter a{
+  text-decoration: none;
+  color: white;
 }
 .pages_par{
   position: absolute;
@@ -296,16 +328,27 @@ ul.bullets{
 .land0{
   position: relative;
   left: 25vw;
-  top: -20vh;
+  top: -5vh;
 }
 .land1{
   position: relative;
   left: 15vw;
 }
+.land2a{
+  position: relative;
+  left: 20vw;
+  top: -25vh;
+  width: 50vw;
+  line-height: normal;
+}
 .land2{
   position: relative;
   left: 20vw;
   top: -10vh;
+  line-height: normal;
+}
+.time{
+  font-weight: bold;
 }
 .land3{
   position: relative;
@@ -322,6 +365,15 @@ ul.bullets{
 .date{
   font-weight: bold;
   line-height: 8vh;
+}
+.date a{
+  text-decoration: none;
+  color:white
+}
+.zoom{
+  background-color: #294402;
+  padding: 2vh;
+  border-radius: 15px;
 }
 .level_3{
   display: none;
@@ -358,6 +410,17 @@ ul.bullets{
 }
 .sec3_par{
   margin-top: 3vh;
+}
+.sec3_link_letter{
+  text-decoration: none;
+  color: white;
+  background-color: #294402;
+  border-radius: 15px;
+  padding: 1vw;
+}
+.sec3_link_letter a{
+  text-decoration: none;
+  color: white;
 }
 .pages_par{
   position: absolute;
