@@ -356,8 +356,12 @@ ul.bullets{
 .land2{
   position: relative;
   left: 20vw;
-  top: -10vh;
+  top: -15vh;
   line-height: normal;
+  font-size: 1.2em;
+}
+.pro_land{
+  font-size: .7em;
 }
 .time{
   font-weight: bold;
