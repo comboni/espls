@@ -131,6 +131,17 @@ section {
   margin-left: 5vw;
   padding-bottom: 5vh;
 }
+.pro_2b{
+  text-align: left;
+  font-size: calc(1rem + 1vw);
+  line-height: normal;
+  width: 85vw;
+  margin-left: 8vw;
+  padding-bottom: 5vh;
+}
+.pro{
+  text-indent: -5vw;
+}
 .time{
   font-weight: bold;
 }
@@ -376,6 +387,9 @@ ul.bullets{
   padding: 2vh;
   border-radius: 15px;
   margin-bottom: 1vh;
+}
+.pro{
+  text-indent: -3vw;
 }
 .level_3{
   display: none;
