@@ -2,6 +2,10 @@
 #8fb61c
 #516b0a;
 #294402
+
+#90a955
+#31572c
+#132a13
  */
 
 * {
@@ -19,7 +23,7 @@ body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
   overflow-y: hidden;
-  background: #516b0a;
+  background: #31572c;
   color: white;
 }
 
@@ -52,8 +56,8 @@ section {
     position: absolute;
     top: 0vh;
     width: 100vw;
-    background-color: #8fb61c;
-    color: #294402;
+    background-color: #90a955;
+    color: #132a13;
     text-align: center;
     font-size: calc(1rem + 3vw);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,9 +68,9 @@ section {
   .sce1_2{
     position: absolute;
   top: 25vh;
-  left: 20vw;
-  width: 70vw;
-  color: #8fb61c;
+  left: 40vw;
+  width: 50vw;
+  color: #90a955;
   text-align: right;
   font-weight: bold;
   font-size: calc(1.5rem + 4vw);
@@ -97,8 +101,8 @@ section {
 }
 .pages{
   position: absolute;
-  top: 10vh;
-  height: 90vh; 
+  top: 15vh;
+  height: 85vh; 
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -111,7 +115,7 @@ section {
   text-align: center;
   font-weight:bold;
   font-size: calc(1rem + 3vw);
-  color: #8fb61c;
+  color: #90a955;
   line-height: 4vh;
 }
 .level_2{
@@ -119,55 +123,14 @@ section {
   font-size: calc(1rem + 2vw);
   line-height: normal;
   width: 80vw;
-  margin-left: 5vw;
   padding-bottom: 5vh;
-  /* border-bottom: #294402 solid 10px; */
-}
-.pro_2{
-  text-align: left;
-  font-size: calc(1rem + 1vw);
-  line-height: normal;
-  width: 90vw;
-  margin-left: 5vw;
-  padding-bottom: 5vh;
-}
-.pro_2b{
-  text-align: left;
-  font-size: calc(1rem + 1vw);
-  line-height: normal;
-  width: 85vw;
-  margin-left: 8vw;
-  padding-bottom: 5vh;
-}
-.pro{
-  text-indent: -5vw;
-}
-.time{
-  font-weight: bold;
-}
-ul.bullets{
-  list-style-type: disc;
-}
-.bullets li{
-  padding-bottom: 2vh;
+  border-bottom: #132a13 solid 10px;
 }
 .date{
   font-weight: bold;
-  line-height: 4vh;
-  text-decoration: none;
-}
-.date a{
-  text-decoration: none;
-  color: white;
-}
-.zoom{
-  background-color: #294402;
-  padding: 2vw;
-  border-radius: 15px;
-  margin-bottom: 1vh;
+  line-height: 8vh;
 }
 .level_3{
-  display: none;
   text-align: right;
   font-size: calc(1rem + 2vw);
   width: 80vw;
@@ -180,20 +143,6 @@ ul.bullets{
 .arc img{
   width: 100vw;
   filter: drop-shadow(0px 5px 5px #222);
-}
-.sec3_par{
-  margin-top: 3vh;
-}
-.sec3_link_letter{
-  text-decoration: none;
-  color: white;
-  background-color: #294402;
-  border-radius: 15px;
-  padding: 2vw;
-}
-.sec3_link_letter a{
-  text-decoration: none;
-  color: white;
 }
 .pages_par{
   position: absolute;
@@ -211,7 +160,7 @@ ul.bullets{
   text-align: center;
   font-weight:bold;
   font-size: calc(1rem + 3vw);
-  color: #8fb61c;
+  color: #90a955;
   line-height: 4vh;
 }
 .level_par_2{
@@ -223,17 +172,9 @@ ul.bullets{
   height: 5vh;
   line-height: 5vh;
   text-decoration: none;
-  background-color: #294402;
+  background-color: #132a13;
   border-radius:3vw;
   margin: 15vh;
-}
-.level_par_2a{
-  text-align: center;
-  font-size: calc(1rem + 2vw);
-  line-height: normal;
-  border-radius:3vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
 }
 .level_par_2 a{
   text-decoration: none;
@@ -265,8 +206,8 @@ ul.bullets{
     position: absolute;
     top: 0vh;
     width: 100vw;
-    background-color: #8fb61c;
-    color: #294402;
+    background-color: #90a955;
+    color: #132a13;
     text-align: center;
     font-size: calc(1rem + 3vh);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -279,7 +220,7 @@ ul.bullets{
     top: 25vh;
     left: 20vw;
     width: 70vw;
-    color: #8fb61c;
+    color: #90a955;
     text-align: right;
     font-weight: bold;
     font-size: calc(1.5rem + 3vh);
@@ -325,78 +266,26 @@ ul.bullets{
   text-align: center;
   font-weight:bold;
   font-size: calc(1.5rem + 1.5vh);
-  color: #8fb61c;
+  color: #90a955;
   /* line-height: 7vh; */
 }
 .level_2{
+  position: absolute;
+  top: 20vh;
+  left: 45vw;
   text-align: left;
   font-size: calc(1rem + 1.5vh);
   line-height: normal;
   width: 50vw;
   padding-bottom: 5vh;
-  /* border-bottom: #294402 solid 1vh; */
+  border-bottom: #132a13 solid 1vh;
   margin-top: 3vh;
-}
-.land0{
-  position: relative;
-  left: 25vw;
-  top: -5vh;
-}
-.land1{
-  position: relative;
-  left: 15vw;
-}
-.land2a{
-  position: relative;
-  left: 20vw;
-  top: -25vh;
-  width: 50vw;
-  line-height: normal;
-}
-.land2{
-  position: relative;
-  left: 20vw;
-  top: -15vh;
-  line-height: normal;
-  font-size: 1.2em;
-}
-.pro_land{
-  font-size: .7em;
-}
-.time{
-  font-weight: bold;
-}
-.land3{
-  position: relative;
-  left: 20vw;
-  top: -30vh;
-}
-ul.bullets{
-  margin-top: 5vh;
-  list-style-type: disc;
-}
-.bullets li{
-  padding-bottom: 2vh;
 }
 .date{
   font-weight: bold;
   line-height: 8vh;
 }
-.date a{
-  text-decoration: none;
-  color:white
-}
-.zoom{
-  background-color: #294402;
-  padding: 2vh;
-  border-radius: 15px;
-  margin-bottom: 1vh;
-}
-.pro{
-  text-indent: -3vw;
-}
 .level_3{
-  display: none;
   position: absolute;
   top: 60vh;
   right: 0vw;
@@ -406,16 +295,6 @@ ul.bullets{
   font-size: calc(1rem + 1.5vh);
   width: 100vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.pon1{
-  position: absolute;
-  top: 15vh;
-  left: 45vw;
-}
-.pon2{
-  position: absolute;
-  top: 45vh;
-  left: 45vw;
 }
 .arc{
   position: absolute;
@@ -427,20 +306,6 @@ ul.bullets{
 .arc img{
   width: 40vw;
   filter: drop-shadow(0px 5px 5px #222);
-}
-.sec3_par{
-  margin-top: 3vh;
-}
-.sec3_link_letter{
-  text-decoration: none;
-  color: white;
-  background-color: #294402;
-  border-radius: 15px;
-  padding: 1vw;
-}
-.sec3_link_letter a{
-  text-decoration: none;
-  color: white;
 }
 .pages_par{
   position: absolute;
@@ -458,7 +323,7 @@ ul.bullets{
   text-align: center;
   font-weight:bold;
   font-size: calc(1rem + 2vh);
-  color: #8fb61c;
+  color: #90a955;
 }
 .level_par_2{
   text-align: center;
@@ -468,7 +333,7 @@ ul.bullets{
   height: 15vh;
   line-height: 15vh;
   text-decoration: none;
-  background-color: #294402;
+  background-color: #132a13;
   border-radius:3vw;
   margin: 3vh;
 }
@@ -476,24 +341,16 @@ ul.bullets{
   text-decoration: none;
   color: white;
 }
-.level_par_2a{
-  text-align: center;
-  font-size: calc(1rem + 1vw);
-  line-height: normal;
-  border-radius:3vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
 .quotetext{
   text-align: center;
-  font-size: calc(1rem + 2vh);
+  font-size: calc(1rem + 1vh);
   line-height: normal;
   width: 80vw;
   z-index: 10;
 }
 .quote{
   position: absolute;
-  top: 35vh;
+  top: 40vh;
   left: 0vw;
   width: 20vw;
   z-index: -10;
