@@ -136,6 +136,42 @@ section {
   width: 80vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.level_3fl{
+  text-align: center;
+  font-size: calc(1rem + 2vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.level_3b{
+  text-align: center;
+  font-size: calc(1rem + 2vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.level_3or{
+  text-align: center;
+  font-size: calc(1rem + 2vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.level_3bor{
+  text-align: center;
+  font-size: calc(1rem + 2vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.level_4{
+  text-align: right;
+  font-size: calc(1rem + 2vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .arc{
   width: 100vw;
   overflow: hidden;
@@ -295,6 +331,27 @@ section {
   font-size: calc(1rem + 1.5vh);
   width: 100vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.level_3fl{
+  text-align: center;
+  font-size: calc(1rem + 2vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.level_3or{
+  text-align: center;
+  font-size: calc(1rem + 1vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.level_3bor{
+  text-align: center;
+  font-size: calc(1rem + 1vw);
+  width: 80vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 .arc{
   position: absolute;
